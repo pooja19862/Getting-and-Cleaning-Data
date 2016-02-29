@@ -23,5 +23,5 @@ Merge the finalData set with the acitivityType table to include descriptive acti
 4. Appropriately labels the data set with descriptive variable names.
 Cleaned the variable names and made it more descriptive using _gsub_ command
 
-3. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Used _dplyr_ package to _groupby_ rows based on subjectID and activityID and used _summariseeach_ command to calculate mean on other columns
