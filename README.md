@@ -19,14 +19,10 @@ For each record it is provided:
 
 The dataset includes the following files:
 =========================================
+1. CodeBook.MD
+2. Run_analysis.R
+3. Tidydata.txt : Tidy dataset after merging datafiles , cleaning the variable names and calculating average of columns grouped by activityID and subjectID
 
-CodeBook.MD
-Run_analysis.R : My R code that does the following things:
-Merges the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement.
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive variable names.
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-Tidydata.txt : Tidy dataset after merging datafiles , cleaning the variable names and calculating average of columns grouped by activityID and subjectID
+
 
 
